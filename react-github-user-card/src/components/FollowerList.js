@@ -3,7 +3,7 @@ import FollowerCard from './FollowerCard';
 
 const FollowerList = ({ followers }) => {
    return (
-      <div>
+      <div className="follower-list">
          {followers.map(follower => (
             <FollowerCard key={follower.id} follower={follower} />
          ))}

@@ -39,8 +39,11 @@ class App extends Component {
 render() {
     return (
       <div className="App">
-        <h1>Github-User-Card</h1>
-        <UserCard user={this.state.user} followers={this.state.followers} />
+        <div className="top">
+          <nav className="title">Github User Card</nav>
+          <UserCard user={this.state.user} followers={this.state.followers} />
+        </div>
+        <h1>Followers</h1>
         <FollowerList followers={this.state.followers} />
       </div>
     );
