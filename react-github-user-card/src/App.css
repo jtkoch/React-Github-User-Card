@@ -5,55 +5,62 @@
   text-align: center;
   align-content: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: rgb(141, 141, 141);
-}
-
-.top {
-  background-color: rgba(41, 41, 41, 0.795);
-  padding: 20px;
-}
-
-.title {
-  font-size: 50px;
-  padding: 10px;
-  color: rgb(20, 77, 170);
-  text-shadow: 4px 4px black;;
+  background-color: #53A567FF;
 }
 
 h1 {
-  text-decoration: underline;
+  font-size: 50px;
+  font-family: 'Monoton';
+}
+
+.top {
+  width: 100%;
+  background-color: rgb(49, 137, 175);
+}
+
+.title {
+  font-size: 80px;
+  font-family: 'Monoton';
+  margin-top: -20px;
+  color: black;
+  background-color: #DA291CFF;
 }
 
 .user-card {
-  border: 1px solid black;
-  padding: 20px;
-  margin: 40px;
+  padding: 40px;
   font-size: 14px;
-  background-color: rgb(20, 77, 170);
-  border-radius: 20px;
-  box-shadow: 6px 6px;
-  width: 25%;
+  text-align: center;
 }
 
 .location {
-  border: 2px solid black;
-  font-size: 25px;
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
 }
 
 .user-card-image {
-  width: 100%;
+  width: 20%;
+  border-radius: 20px;
+  border: 3px solid black;
 }
 
 .follower-card {
   border: 1px solid black;
-  padding: 20px;
-  margin: 40px;
+  padding: 10px;
+  margin: 50px;
   font-size: .75rem;
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(49, 137, 175);
   border-radius: 20px;
   box-shadow: 6px 6px;
 }
 
+.follower-card:hover {
+  background-color: #DA291CFF
+}
+
 .follower-card-image {
   width: 100%;
+  border-radius: 20px;
 }
